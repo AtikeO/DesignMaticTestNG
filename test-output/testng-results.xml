@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8802" started-at="2019-12-14T08:39:17Z" finished-at="2019-12-14T08:39:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8802" started-at="2019-12-14T08:39:17Z" finished-at="2019-12-14T08:39:26Z">
+      <class name="Tests.DesignMaticMainPage1Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.DesignMaticMainPage1Test@1e88b3c]" name="setUp" is-config="true" duration-ms="8724" started-at="2019-12-14T08:39:17Z" finished-at="2019-12-14T08:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:Tests.DesignMaticMainPage1Test@1e88b3c]" name="getTitle" duration-ms="46" started-at="2019-12-14T08:39:26Z" finished-at="2019-12-14T08:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+      </class> <!-- Tests.DesignMaticMainPage1Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

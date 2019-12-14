@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [DesignMatic Test Sanity Suite]">
+  <test thread-count="5" verbose="3" name="DesignMatic Sanity Test(failed)">
+    <classes>
+      <class name="Tests.DesignMaticLoginPage2Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logoDesignTest"/>
+          <include name="setUp"/>
+          <include name="getLoginPageTitle"/>
+        </methods>
+      </class> <!-- Tests.DesignMaticLoginPage2Test -->
+      <class name="Tests.DesignMaticMainPage1Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="clickLoginButton"/>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- Tests.DesignMaticMainPage1Test -->
+      <class name="Tests.CompanyPageTest3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="companyAndIndustry"/>
+          <include name="setUp"/>
+          <include name="selectedText"/>
+        </methods>
+      </class> <!-- Tests.CompanyPageTest3 -->
+    </classes>
+  </test> <!-- DesignMatic Sanity Test(failed) -->
+</suite> <!-- Failed suite [DesignMatic Test Sanity Suite] -->
